@@ -26,7 +26,89 @@ Advanced editing capabilities in development include:
 
 ## Current status
 
-A list of features and their status will be published here in the coming weeks.
+
+<table>
+    <thead>
+        <tr>
+            <th>Feature</th>
+            <th>Context</th>
+            <th>Status</th>
+            <th>Note</th>
+        </tr>
+    </thead>
+<tbody>
+ <tr>
+            <td style="font-weight:bold;">Group qualifier</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Supertype tree</td>
+            <td>✔ Done</td>
+            <td>-</td>
+        </tr>
+         <tr>
+            <td></td>
+            <td>Subtype tree</td>
+            <td>🚧 In progress</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>SELECT type</td>
+            <td>✔ Done</td>
+            <td>Under validation</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Index qualifier</td>
+            <td>🚧 In progress</td>
+            <td>Only 1D</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bold;">Attribute qualifier</td>
+            <td></td>
+            <td></td>
+            <td>-</td>
+        </tr>
+                                <tr>
+            <td></td>
+            <td>Direct attribute</td>
+            <td>🚧 In progress</td>
+            <td>Only explicit attributes are fully validated</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>From supertype</td>
+            <td>🚧 In progress</td>
+            <td>-</td>
+        </tr>
+                                <tr>
+            <td></td>
+            <td>From subtype</td>
+            <td>📅 To do</td>
+            <td>-</td>
+        </tr>
+                                        <tr>
+            <td></td>
+            <td>Index qualifier</td>
+            <td>🚧 In progress</td>
+            <td>Only 1D</td>
+        </tr>
+                                <tr>
+            <td style="font-weight:bold;">Enums</td>
+            <td></td>
+            <td>📅 To do</td>
+            <td>-</td>
+        </tr>
+                <tr>
+        <td colspan="4" style="text-align:center">More information coming soon ...</td>
+        </tr>
+</tbody>
+</table>
+
 
 ## How to contribute?
 
