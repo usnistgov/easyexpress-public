@@ -2,6 +2,19 @@
 
 This Visual Studio Code extension provides support for the [EXPRESS (ISO 10303-11)](https://www.iso.org/standard/38047.html) information modeling language.
 
+## On this page
+
+- [Development status](#development-status)
+- [What is easyEXPRESS?](#what-is-easyexpress)
+- [Current status](#current-status)
+  - [Group qualifiers](#group-qualifiers)
+  - [Attribute qualifiers](#attribute-qualifiers)
+  - [Constructed data types resolution](#constructed-data-types-resolution)
+  - [Interface specifications](#interface-specifications)
+- [Code snippets](#code-snippets)
+- [How to contribute?](#how-to-contribute)
+- [Contact information](#contact-information)
+
 ## Development status
 
 easyEXPRESS is currently in early stages and under active development. Expect bugs and missing features that we encourage you to document and report:
@@ -27,88 +40,47 @@ Advanced editing capabilities in development include:
 ## Current status
 
 
-<table>
-    <thead>
-        <tr>
-            <th>Feature</th>
-            <th>Context</th>
-            <th>Status</th>
-            <th>Note</th>
-        </tr>
-    </thead>
-<tbody>
- <tr>
-            <td style="font-weight:bold;">Group qualifier</td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Supertype tree</td>
-            <td>✔ Done</td>
-            <td>-</td>
-        </tr>
-         <tr>
-            <td></td>
-            <td>Subtype tree</td>
-            <td>🚧 In progress</td>
-            <td>-</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>SELECT type</td>
-            <td>✔ Done</td>
-            <td>Under validation</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Index qualifier</td>
-            <td>🚧 In progress</td>
-            <td>Only 1D</td>
-        </tr>
-        <tr>
-            <td style="font-weight:bold;">Attribute qualifier</td>
-            <td></td>
-            <td></td>
-            <td>-</td>
-        </tr>
-                                <tr>
-            <td></td>
-            <td>Direct attribute</td>
-            <td>🚧 In progress</td>
-            <td>Only explicit attributes are fully validated</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>From supertype</td>
-            <td>🚧 In progress</td>
-            <td>-</td>
-        </tr>
-                                <tr>
-            <td></td>
-            <td>From subtype</td>
-            <td>📅 To do</td>
-            <td>-</td>
-        </tr>
-                                        <tr>
-            <td></td>
-            <td>Index qualifier</td>
-            <td>🚧 In progress</td>
-            <td>Only 1D</td>
-        </tr>
-                                <tr>
-            <td style="font-weight:bold;">Enums</td>
-            <td></td>
-            <td>📅 To do</td>
-            <td>-</td>
-        </tr>
-                <tr>
-        <td colspan="4" style="text-align:center">More information coming soon ...</td>
-        </tr>
-</tbody>
-</table>
+Legend:
 
+| Mark | Description |
+| --- | --- |
+| 👍 | Implemented|
+| 🔥 | Coming soon / in beta |
+| 🏃 | Currently under development|
+| 📅 | Planned |
+
+
+### Group qualifiers
+- [ ] 🔥 Full type graph 
+- [ ] 🏃 SELECT type
+- [ ] 🏃 Index qualifier
+- [ ] 📆 Function call
+
+### Attribute qualifiers
+- [ ] 🔥 Direct attribute
+- [ ] 🔥 From type graph
+- [ ] 🏃 Index qualifier
+- [ ] 📆 Function call
+
+### Constructed data types resolution
+- [x] 👍 Enumerations
+- [ ] 🏃 Select data types
+
+### Interface specifications
+- [ ] 🔥 Use interface specification
+- [ ] 🔥 Reference interface specification
+
+## Code snippets
+
+easyEXPRESS ships with the following EXPRESS [code snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets):
+
+- `sch` to create a new schema
+- `ent` to create a new entity
+- `attr` to create a new attribute
+- `sel2` to create a new select with 2 types
+- `sel3` to create a new select with 3 types
+- `fun` to create a new function
+- `type` to create a new type
 
 ## How to contribute?
 
