@@ -34,7 +34,7 @@ Advanced editing capabilities in development include:
 - Syntax highlighting and validation
 - [Intellisense](https://code.visualstudio.com/docs/editor/intellisense): write code faster with auto-completion
 - [Code navigation](https://code.visualstudio.com/docs/editor/editingevolved): navigate your code with features such as [Go to Definition](https://code.visualstudio.com/Docs/editor/editingevolved#_go-to-definition)
-- [Code refactoring](https://code.visualstudio.com/docs/editor/refactoring): refactore your code with featurs such as [Rename Symbol](https://code.visualstudio.com/docs/editor/refactoring#_rename-symbol)
+- [Code refactoring](https://code.visualstudio.com/docs/editor/refactoring): refactor your code with featurs such as [Rename Symbol](https://code.visualstudio.com/docs/editor/refactoring#_rename-symbol)
 - [Code snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets): write code faster with shortcuts to commonly used code patterns
 
 ## Current status
